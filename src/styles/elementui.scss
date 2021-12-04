@@ -1,0 +1,31 @@
+.el-menu-item {
+    &.is-active{background-color: rgba(245, 108, 108, 0.2) !important;}
+}
+li.el-submenu{
+    &.el-submenu.is-active .el-submenu__title{background-color: #f56c6c !important;}
+}
+.el-menu{border-right: none;}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    border-right: none;
+}
+.el-table .el-table__cell{
+    text-align: center;
+}
+/* info信息弹窗 */
+.el-dialog__body{
+    padding: 30px 30px;
+}
+.el-dialog__footer{
+    .el-button{
+        padding: 12px 64px !important;
+    }
+}
+.el-dialog__footer{
+    text-align: center !important;
+}
+.el-button+.el-button{margin-left: 30px;}
+.el-button + .el-button{margin-left: 9px;}
+.el-button--mini, .el-button--mini.is-round{padding: 4px 15px;}
+
+
